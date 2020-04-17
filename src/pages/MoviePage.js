@@ -4,7 +4,6 @@ import MovieCardContainer from '../components/Movie-card-container'
 import NameSearch from '../components/nameSearch'
 import Rating from '../components/rating-filter'
 import AddModal from '../components/Modal'
-import Loader from "react-loader-spinner";
 export default class MoviePage extends Component {
     state = {
         data,
